@@ -1,11 +1,4 @@
 region,crime_type,crime,value,time
-New York State,  Violent Crime,Murder,925,2003
-New York State,  Violent Crime,Forcible Rape,3770,2003
-New York State,  Violent Crime,Robbery,35778,2003
-New York State,  Violent Crime,Agg. Assault,48892,2003
-New York State,  Property Crime,Burglary,75419,2003
-New York State,  Property Crime,Larceny,309172,2003
-New York State,  Property Crime,MV Theft,45138,2003
 New York City,  Violent Crime,Murder,597,2003
 New York City,  Violent Crime,Forcible Rape,1609,2003
 New York City,  Violent Crime,Robbery,25989,2003
@@ -20,13 +13,6 @@ Non-New York City,  Violent Crime,Agg. Assault,17639,2003
 Non-New York City,  Property Crime,Burglary,47126,2003
 Non-New York City,  Property Crime,Larceny,184326,2003
 Non-New York City,  Property Crime,MV Theft,21510,2003
-New York State,  Violent Crime,Murder,899,2004
-New York State,  Violent Crime,Forcible Rape,3561,2004
-New York State,  Violent Crime,Robbery,33350,2004
-New York State,  Violent Crime,Agg. Assault,46465,2004
-New York State,  Property Crime,Burglary,69929,2004
-New York State,  Property Crime,Larceny,305667,2004
-New York State,  Property Crime,MV Theft,40779,2004
 New York City,  Violent Crime,Murder,570,2004
 New York City,  Violent Crime,Forcible Rape,1428,2004
 New York City,  Violent Crime,Robbery,24373,2004
@@ -41,13 +27,6 @@ Non-New York City,  Violent Crime,Agg. Assault,17148,2004
 Non-New York City,  Property Crime,Burglary,43829,2004
 Non-New York City,  Property Crime,Larceny,181651,2004
 Non-New York City,  Property Crime,MV Theft,19707,2004
-New York State,  Violent Crime,Murder,875,2005
-New York State,  Violent Crime,Forcible Rape,3615,2005
-New York State,  Violent Crime,Robbery,35004,2005
-New York State,  Violent Crime,Agg. Assault,46030,2005
-New York State,  Property Crime,Burglary,67801,2005
-New York State,  Property Crime,Larceny,300538,2005
-New York State,  Property Crime,MV Theft,35536,2005
 New York City,  Violent Crime,Murder,539,2005
 New York City,  Violent Crime,Forcible Rape,1412,2005
 New York City,  Violent Crime,Robbery,24722,2005
@@ -62,13 +41,6 @@ Non-New York City,  Violent Crime,Agg. Assault,18080,2005
 Non-New York City,  Property Crime,Burglary,44591,2005
 Non-New York City,  Property Crime,Larceny,179620,2005
 Non-New York City,  Property Crime,MV Theft,17155,2005
-New York State,  Violent Crime,Murder,927,2006
-New York State,  Violent Crime,Forcible Rape,3165,2006
-New York State,  Violent Crime,Robbery,34380,2006
-New York State,  Violent Crime,Agg. Assault,45343,2006
-New York State,  Property Crime,Burglary,68487,2006
-New York State,  Property Crime,Larceny,293473,2006
-New York State,  Property Crime,MV Theft,32088,2006
 New York City,  Violent Crime,Murder,596,2006
 New York City,  Violent Crime,Forcible Rape,1071,2006
 New York City,  Violent Crime,Robbery,23511,2006
@@ -83,13 +55,6 @@ Non-New York City,  Violent Crime,Agg. Assault,18435,2006
 Non-New York City,  Property Crime,Burglary,46350,2006
 Non-New York City,  Property Crime,Larceny,178110,2006
 Non-New York City,  Property Crime,MV Theft,16152,2006
-New York State,  Violent Crime,Murder,808,2007
-New York State,  Violent Crime,Forcible Rape,2925,2007
-New York State,  Violent Crime,Robbery,31036,2007
-New York State,  Violent Crime,Agg. Assault,45050,2007
-New York State,  Property Crime,Burglary,64834,2007
-New York State,  Property Crime,Larceny,288366,2007
-New York State,  Property Crime,MV Theft,27973,2007
 New York City,  Violent Crime,Murder,496,2007
 New York City,  Violent Crime,Forcible Rape,875,2007
 New York City,  Violent Crime,Robbery,21787,2007
@@ -104,13 +69,6 @@ Non-New York City,  Violent Crime,Agg. Assault,17755,2007
 Non-New York City,  Property Crime,Burglary,43920,2007
 Non-New York City,  Property Crime,Larceny,173048,2007
 Non-New York City,  Property Crime,MV Theft,14717,2007
-New York State,  Violent Crime,Murder,835,2008
-New York State,  Violent Crime,Forcible Rape,2787,2008
-New York State,  Violent Crime,Robbery,31742,2008
-New York State,  Violent Crime,Agg. Assault,42070,2008
-New York State,  Property Crime,Burglary,65516,2008
-New York State,  Property Crime,Larceny,296638,2008
-New York State,  Property Crime,MV Theft,25094,2008
 New York City,  Violent Crime,Murder,523,2008
 New York City,  Violent Crime,Forcible Rape,890,2008
 New York City,  Violent Crime,Robbery,22186,2008
@@ -125,13 +83,6 @@ Non-New York City,  Violent Crime,Agg. Assault,17239,2008
 Non-New York City,  Property Crime,Burglary,45649,2008
 Non-New York City,  Property Crime,Larceny,178956,2008
 Non-New York City,  Property Crime,MV Theft,12654,2008
-New York State,  Violent Crime,Murder,784,2009
-New York State,  Violent Crime,Forcible Rape,2567,2009
-New York State,  Violent Crime,Robbery,28063,2009
-New York State,  Violent Crime,Agg. Assault,43417,2009
-New York State,  Property Crime,Burglary,62679,2009
-New York State,  Property Crime,Larceny,290675,2009
-New York State,  Property Crime,MV Theft,21779,2009
 New York City,  Violent Crime,Murder,471,2009
 New York City,  Violent Crime,Forcible Rape,832,2009
 New York City,  Violent Crime,Robbery,18597,2009
@@ -146,13 +97,6 @@ Non-New York City,  Violent Crime,Agg. Assault,16960,2009
 Non-New York City,  Property Crime,Burglary,43899,2009
 Non-New York City,  Property Crime,Larceny,178149,2009
 Non-New York City,  Property Crime,MV Theft,11085,2009
-New York State,  Violent Crime,Murder,866,2010
-New York State,  Violent Crime,Forcible Rape,2765,2010
-New York State,  Violent Crime,Robbery,28405,2010
-New York State,  Violent Crime,Agg. Assault,43799,2010
-New York State,  Property Crime,Burglary,64685,2010
-New York State,  Property Crime,Larceny,289459,2010
-New York State,  Property Crime,MV Theft,20406,2010
 New York City,  Violent Crime,Murder,536,2010
 New York City,  Violent Crime,Forcible Rape,1036,2010
 New York City,  Violent Crime,Robbery,19608,2010
@@ -167,13 +111,6 @@ Non-New York City,  Violent Crime,Agg. Assault,16490,2010
 Non-New York City,  Property Crime,Burglary,46759,2010
 Non-New York City,  Property Crime,Larceny,178089,2010
 Non-New York City,  Property Crime,MV Theft,10087,2010
-New York State,  Violent Crime,Murder,769,2011
-New York State,  Violent Crime,Forcible Rape,2766,2011
-New York State,  Violent Crime,Robbery,28346,2011
-New York State,  Violent Crime,Agg. Assault,45554,2011
-New York State,  Property Crime,Burglary,64979,2011
-New York State,  Property Crime,Larceny,287297,2011
-New York State,  Property Crime,MV Theft,18645,2011
 New York City,  Violent Crime,Murder,515,2011
 New York City,  Violent Crime,Forcible Rape,1092,2011
 New York City,  Violent Crime,Robbery,19773,2011
@@ -188,13 +125,6 @@ Non-New York City,  Violent Crime,Agg. Assault,15725,2011
 Non-New York City,  Property Crime,Burglary,46820,2011
 Non-New York City,  Property Crime,Larceny,174433,2011
 Non-New York City,  Property Crime,MV Theft,9211,2011
-New York State,  Violent Crime,Murder,686,2012
-New York State,  Violent Crime,Forcible Rape,2821,2012
-New York State,  Violent Crime,Robbery,28544,2012
-New York State,  Violent Crime,Agg. Assault,47211,2012
-New York State,  Property Crime,Burglary,63851,2012
-New York State,  Property Crime,Larceny,290882,2012
-New York State,  Property Crime,MV Theft,17147,2012
 New York City,  Violent Crime,Murder,419,2012
 New York City,  Violent Crime,Forcible Rape,1162,2012
 New York City,  Violent Crime,Robbery,20201,2012
