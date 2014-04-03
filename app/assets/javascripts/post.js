@@ -25,28 +25,30 @@ init = function(){
 	row_2 = dc.rowChart("#row-2")
 	bar_1 = dc.rowChart("#bar-1")
 
-	width = $("#time-1").width()
+	width = $("#bar-1").width()
 	height = width/2.5
 	
 	//bar chart
 	bar_1.width(width).height(height)
-	    .margins({top:10,right:60,bottom:20,left:100})
+	    .margins({top:10,right:60,bottom:20,left:120})
 	    .dimension(crimes)
 	    .colors(d3.scale.category10())
 	    .group(crimes.group().reduceSum(function(d){return d.value}))
 	    .label(function(d){return d.key})
 	    .elasticX(true)
-	    .labelOffsetX(-100)
-	    .xAxis().ticks(4);
+	    .labelOffsetX(-120)
+	    .xAxis().ticks(3);
 
 	    bar_1.renderlet(function(chart){
 		chart.selectAll("text")
 		    .style("fill","black");
 	    })
 
+	width = $("#time-1").width()
+	height = width/4
 	//time chart
 	time_1.width(width).height(height)
-	    .margins({top:10,right:60,bottom:20,left:100})
+	    .margins({top:10,right:60,bottom:20,left:120})
 	    .dimension(time)
 	    .group(time.group().reduceSum(function(d){return d.value;}))
 	    .elasticY(true)
@@ -54,24 +56,38 @@ init = function(){
 	    .x(d3.scale.linear().domain([2003,2012]))
 	    .xAxis().ticks(5)
 
+	width = $("#bar-1").width()
+	height = width/2.5
+	
 	//row regions catalog
 	row_1.width(width).height(height)
-	    .margins({top:10,right:60,bottom:20,left:100})
+	    .margins({top:10,right:60,bottom:20,left:120})
 	    .dimension(regions)
 	    .group(regions.group().reduceSum(function(d){return d.value;}))
 	    .colors(d3.scale.category10())
 	    .label(function(d){return d.key})
-	    .xAxis().ticks(3)
+	    .labelOffsetX(-120)
+	    .xAxis().ticks(2)
 
+	row_1.renderlet(function(chart){
+		chart.selectAll("text")
+		.style("fill","black");
+	    })
 	//row crimes catalog
 	row_2.width(width).height(height)
-	    .margins({top:10,right:60,bottom:20,left:100})
+	    .margins({top:10,right:60,bottom:20,left:120})
 	    .dimension(crime_type)
 	    .group(crime_type.group().reduceSum(function(d){return d.value;}))
 	    .colors(d3.scale.category10())
 	    .label(function(d){return d.key})
-	    .xAxis().ticks(0)
-
+	    .labelOffsetX(-120)
+	    .xAxis().ticks(2)
+	
+	row_2.renderlet(function(chart){
+	    chart.selectAll("text")
+		    .style("fill","black");
+	})
+	
 	dc.renderAll();
     })
     
